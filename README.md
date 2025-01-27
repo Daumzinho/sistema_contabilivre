@@ -16,6 +16,3 @@ CREATE TABLE IF NOT EXISTS usuarios (
     PRIMARY KEY (id)
 );
 
-INSERT INTO usuarios (nome, email, idade, data_nascimento, genero, descricao, foto, termos)
-VALUES
-('Admin', 'admin@example.com', 30, '1995-01-01', 'M', 'Usuário administrador.', NULL, 1);
